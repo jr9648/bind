@@ -1,0 +1,15 @@
+;
+; BIND reverse data file for instantpost.com
+;
+$TTL	604800
+@	IN	SOA	dns.instantpost.com. admin.instantpost.com. (
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	dns.instantpost.com.
+
+157	IN	PTR	dns.instantpost.com.
+123	IN	PTR	dhcp.instantpost.com.
